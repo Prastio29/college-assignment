@@ -22,6 +22,7 @@ btn2.addEventListener('click', () => {
     kotak.classList.toggle('active') 
 
     setTimeout(() => {
+        img.style.marginRight = '300px'
         body.appendChild(img)
     }, 1000)
 })
