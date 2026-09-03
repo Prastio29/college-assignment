@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Prastio Romadoni</title>
+   <link rel="stylesheet" href="amphoreus.css">
+</head>
+<body>
+ <div id="wrap">
+    <div id="header">
+        <div id="gradasi"></div>
+        <audio controls autoplay loop>
+        <source src="music/amphoreus.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung tag audio ini.
+        </audio>
+    </div><!--header-->
+
+    <div id="menu">
+        <ul>
+            <li style="border-left:1px solid #000"><a href="index.php"><span>Home</span></a></li>
+            <li><a href="profil.php"><span>Profile</span></a></li>
+            <li><a href="#"><span>Items</span></a>
+                <ul>
+                    <li><a href="https://wiki.hoyolab.com/pc/hsr/aggregate/108"><span>Relic Set & Planar Set</span></a></li>
+                    <li><a href="https://www.hoyolab.com/article/17984000?bbs_presentation_style=fullscreen"><span>Stats Information</span></a></li>
+                </ul>
+            </li>
+            <li><a href="char.php"><span>Characters</span></a></li>
+            <li><a href="gallery.php"><span>Gallery</span></a></li>
+        </ul>
+    </div><!--menu--> 
+
+    <div id="video">
+        <img id="img1" src="img/amphoreus/right-side.png">
+        <iframe src="https://www.youtube.com/embed/TqKwoSk6708"></iframe>
+        <img id="img2" src="img/amphoreus/left-side.png">
+        <div id="gradasi-video"></div>
+    </div>
+
+    <div id="content-amphoreus">
+        <div id="gradasi-konten"></div>
+
+            <div id="banner-aglaea">
+                <div id="gradasi-aglaea"></div>
+                <div id="gradasi-aglaea2"></div>
+            </div> 
+            
+            <div id="content-aglaea">
+            <div id="gradasi-konten-aglaea"></div>
+            <div id="gradasi-konten-aglaea2"></div>
+                <img src="img/amphoreus/aglaea.jpg">
+                <h1>Aglaea - Weaver of Gold</h1>
+            </div>
+
+            <div id="banner-tribbie">
+                <div id="gradasi-tribbie"></div>
+                <div id="gradasi-tribbie2"></div>
+            </div>
+
+            <div id="content-tribbie">
+                <div id="gradasi-konten-tribbie"></div>
+                <div id="gradasi-konten-tribbie2"></div>
+                <img src="img/amphoreus/tribbie.jpg">
+                <h1>Tribbie - Weaver of Gold</h1>
+            </div>
+        </div>
+    </div>
+    

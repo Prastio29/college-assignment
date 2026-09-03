@@ -1,0 +1,409 @@
+@keyframes star {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+#wrap{
+    width:1000px;
+    height:auto;
+    margin:5px auto;
+    background-color: #e3f2fd;
+}
+
+#header{
+    width: 100%;
+    height:200px;
+    max-width: auto;
+    background-image: url(img/hsr.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 35%;
+    position: relative;
+}
+
+#header:hover {
+    transition: all 0.5s ease;
+    background-size: 110%;
+}
+
+#menu{
+    width:100%;
+    height:auto;
+    background-color: #121212;
+    position: relative;
+}
+
+#gradasi-header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #121212);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    color: white;
+    gap: 80px;
+}
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    padding:8px 0px 16px;
+    border-right:1px solid #000;
+    position:relative;
+    color: white;
+    border-radius: 30px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a span{
+    padding:4px 19px 8px;
+    transition: background-color 0.2s;
+    border-radius: 30px
+}
+
+#menu ul li a:hover span{
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 30px;
+}
+
+#menu ul li ul{
+    display: none;
+}
+
+#menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 30px;
+    background-color: #121212;
+    border: 1px solid #000;
+    border-right: 1px solid #000;
+    z-index: 999;
+}
+
+#menu ul li:hover ul li{
+    margin-top: 0;
+    padding: 0;
+}
+
+#menu ul li:hover li a span{
+    display: block;
+    width: 195px;
+    text-align: left;
+}
+
+#header-profil {
+    width: 720px;
+    height: 690px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 5px;
+    background-image: url(img/stars.jpg);
+    background-size: 100%;
+    color: white;
+    animation: star 20s linear infinite;
+}
+
+#header-profil img{
+    width: 50%;
+    height: auto;
+    border-radius: 50px;
+}
+
+#header-profil #mc-2 {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 600px;
+}
+#left{
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+#top-left{
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#midle-left{
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+#title{
+    width: auto;
+    height: auto;
+    background-color: #121212;
+    border: 1px solid #000;
+    color: white;
+    border-radius: 30px;
+}
+
+#title p{
+    text-align: center;
+    padding: 0;
+    margin: 6px 0;
+}
+
+#content-tl{
+    width: 100%;
+    height: auto;
+}
+
+#content-tl ul {
+    padding: 0;
+    margin: 0;
+}
+
+#content-tl ul li {
+    list-style: url(img/icon.jpg);
+    margin-top: 3px;
+    margin-left: 35px;
+    line-height: 27px;
+    list-style: none
+}
+
+#content-tl ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#content-tl ul li a:hover {
+    color: rgb(7, 122, 122);
+    text-decoration: underline;
+}
+
+#content-ml{
+    width: 100%;
+    height: auto;
+}
+
+#content-ml ul {
+    padding: 0;
+    margin: 0;
+}
+
+#content-ml ul li {
+    list-style: url(img/icon.jpg);
+    margin-top: 3px;
+    margin-left: 35px;
+    line-height: 27px;
+    list-style: none;
+}
+
+#content-ml ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#content-ml ul li a:hover {
+    color: rgb(7, 122, 122);
+    text-decoration: underline;
+}
+
+#content-fl{
+    width: 100%;
+    height: auto;
+}
+
+#footer-left{
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+#content-fl ul {
+    padding: 0;
+    margin: 0;
+}
+
+#content-fl ul li {
+    list-style: url(img/icon.jpg);
+    margin-top: 3px;
+    margin-left: 35px;
+    line-height: 27px;
+    list-style: none;
+}
+
+#content-fl ul li a {
+    text-decoration: none;
+    color: #000;;
+}
+
+#content-fl ul li a:hover {
+    color: rgb(7, 122, 122);
+    text-decoration: underline;
+}
+
+#mc {
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+}
+
+#mc img{
+    width: 290px;
+    height: auto;
+    padding-right: 5px;
+}
+
+#middle-profile {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    background-image: url(img/stars.jpg);
+    animation: star 20s linear infinite;
+    color: white;
+}
+
+#path-element h1{
+    font-size: 24px;
+}
+
+#path-element ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#path-element ul li{
+    list-style: none;
+}
+
+#path-element ul li img {
+    width: 170px;
+    height: auto;
+}
+
+#path-element ul li img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+    border:1px solid white;
+}
+
+#mc-destruction ul {
+    display: flex;
+    gap: 70px;
+}
+
+#mc-preservation ul {
+    display: flex;
+    gap: 70px;
+}
+
+#mc-harmony ul {
+    display: flex;
+    gap: 70px;
+}
+
+#mc-remembrance ul {
+    display: flex;
+    gap: 70px;
+}
+
+#mc-elation ul {
+    display: flex;
+    margin-left: 253px;
+    gap: 70px;
+}
+
+
+#footer{
+    width: 100%;
+    height: 250px;
+    margin-top: 5px;
+    float: left;
+    background-color: #e3f2fd;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+#f-left{
+    width: 315px;
+    height: 190px;
+    float: left;
+}
+
+#content-f-left{
+    width: 100%;
+    height: 215px;
+    border: 1px solid black;
+}
+
+#content-f-left ul{
+    width: 100%;
+    height: 215px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#content-f-left ul li{
+    list-style: none;
+}
+
+#content-f-left ul li a img{
+    width: 50px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#f-middle{
+    width: 315px;
+    height: auto;
+    float: left;
+    margin-left: 28px;
+}
+
+#content-f-middle{
+    width: 100%;
+    height: 215px;
+    border: 1px solid black;
+}
+
+#f-right{
+    width: 315px;
+    height: 190px;
+    float: right;
+    margin-left: 3px;
+}
+
+#content-f-right{
+    width: 100%;
+    height: 215px;
+    border: 1px solid black;
+}
+
+#teks-content {
+    padding: 2px 5px;
+    text-align: center;
+    cursor: pointer;
+}

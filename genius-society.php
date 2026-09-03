@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>Prastio Romadoni</title>
+   <link rel="stylesheet" href="genius-society.css">
+</head> 
+<body>
+ <div id="wrap">
+    <div id="header">
+        <div id="gradasi-header"></div>
+    </div><!--header-->
+
+    <div id="menu"> 
+        <div id="gradasi-menu"></div>
+        <ul>
+            <li style="border-left:1px solid #000"><a href="index.php"><span>Home</span></a></li>
+            <li><a href="profil.php"><span>Profile</span></a></li>
+            <li><a href="#"><span>Items</span></a>
+                <ul>
+                    <li><a href="https://wiki.hoyolab.com/pc/hsr/aggregate/108"><span>Relic Set & Planar Set</span></a></li>
+                    <li><a href="https://www.hoyolab.com/article/17984000?bbs_presentation_style=fullscreen"><span>Stats Information</span></a></li>
+                </ul>
+            </li>
+            <li><a href="char.php"><span>Characters</span></a></li>
+            <li><a href="gallery.php"><span>Gallery</span></a></li>
+        </ul>
+    </div><!--menu-->
+
+    <div id="main-content-genius">
+        <div id="header-genius">
+            <div id="text-genius">
+                <h1>GENIUS SOCIETY</h1>
+                <p>kelompok eksklusif antargalaksi yang beranggotakan orang-orang paling brilian di alam semesta. Keanggotaan sepenuhnya acak dan tidak dapat diajukan; sebaliknya, seseorang dipilih langsung oleh Aeon Kebijaksanaan, Nous. Anggota jarang memiliki tujuan yang sama dan bertindak sepenuhnya atas inisiatif mereka sendiri.</p>
+            </div>
+            <div id=img-genius>
+                <img src="img/genius-society/zandar.jpg">
+            </div>
+        </div>
+
+        <div id="middle-genius">
+            <h1>Lastest Story</h1>
+            <div id="konten-middle">
+                <div id="img-kiri-genius">
+                    <img src="img/genius-society/irontomb2.jpg">
+                    <h3>Serangan Irontomb</h3>
+                    <p>bla ba bla</p>
+                </div>
+
+                <div id="img-kanan-genius">
+                    <div id="story1">
+                        <img src="img/genius-society/story1.jpg">
+                        <div id="text-story">
+                            <h3>Dr. Primitive Experiment</h3>
+                            <p>bla bla bla</p>
+                        </div>
+                    </div>
+
+                    <div id="story1">
+                        <img src="img/genius-society/story1.jpg">
+                        <div id="text-story">
+                            <h3>Dr. Primitive Experiment</h3>
+                            <p>bla bla bla</p>
+                        </div>
+                    </div>
+
+                    <div id="story1">
+                        <img src="img/genius-society/story1.jpg">
+                        <div id="text-story">
+                            <h3>Dr. Primitive Experiment</h3>
+                            <p>bla bla bla</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<html>
+<head>
+    <title>Prastio Romadoni</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+ <div id="wrap">
+    <div id="header">
+        <div id="gradasi-header"></div>
+    </div><!--header-->
+
+    <div id="menu">
+        <ul>
+            <li style="border-left:1px solid #000"><a href="index.php"><span>Home</span></a></li>
+            <li><a href="profil.php"><span>Profile</span></a></li>
+            <li><a href="#"><span>Items</span></a>
+                <ul>
+                    <li><a href="https://wiki.hoyolab.com/pc/hsr/aggregate/108"><span>Relic Set & Planar Set</span></a></li>
+                    <li><a href="https://www.hoyolab.com/article/17984000?bbs_presentation_style=fullscreen"><span>Stats Information</span></a></li>
+                </ul>
+            </li>
+            <li><a href="char.php"><span>Characters</span></a></li>
+            <li><a href="gallery.php"><span>Gallery</span></a></li>
+        </ul>
+    </div><!--menu--> 
+
+    <div id="main-conten-gallery">
+        <header class="navbar">
+        <div class="judul">Honkai: Star Rail Gallery</div>
+        </header>
+
+    <main class="gallery-container">
+        <div class="gallery-item">
+            <img src="img/ipc/topaz.jpg" alt="Ide 1">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/planarcadia/ashveil-lore.jpg" alt="Ide 2">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/planarcadia/himeko-lore.jpg" alt="Ide 3">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/planarcadia/evanescia-lore.jpg" alt="Ide 4">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/amphoreus/castorice.jpg" alt="Ide 5">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/amphoreus/evernight.jpg" alt="Ide 6">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/amphoreus/cipher.jpg" alt="Ide 1">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/amphoreus/phainon.jpg" alt="Ide 4">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+         <div class="gallery-item">
+            <img src="img/amphoreus/farewell-cipher.jpg" alt="Ide 5">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/amphoreus/amphoreus.jpg" alt="Ide 2">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+        
+         <div class="gallery-item">
+            <img src="img/amphoreus/farewell-cyrene.jpg" alt="Ide 3">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/penacony/penacony.jpg" alt="Ide 6">
+            <div class="overlay">
+                <button class="btn-save">Simpan</button>
+            </div>
+        </div>
+    </main>    
+    </div>
+<?php include "footer.php" ?>

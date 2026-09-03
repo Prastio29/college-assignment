@@ -1,0 +1,1903 @@
+<html>
+<head>
+    <title>Prastio Romadoni</title>
+   <link rel="stylesheet" href="char.css">
+</head>
+<body>
+ <div id="wrap">
+    <div id="header">
+        <div id="gradasi-header"></div>
+        <div id="gradasi-header2"></div>
+    </div><!--header-->
+
+    <div id="menu">
+        <ul>
+            <li style="border-left:1px solid #000"><a href="index.php"><span>Home</span></a></li>
+            <li><a href="profil.php"><span>Profile</span></a></li>
+            <li><a href="#"><span>Items</span></a>
+                <ul>
+                    <li><a href="https://wiki.hoyolab.com/pc/hsr/aggregate/108"><span>Relic Set & Planar Set</span></a></li>
+                    <li><a href="https://www.hoyolab.com/article/17984000?bbs_presentation_style=fullscreen"><span>Stats Information</span></a></li>
+                </ul>
+            </li>
+            <li><a href="char.php"><span>Characters</span></a></li>
+            <li><a href="gallery.php"><span>Gallery</span></a></li>
+        </ul>
+    </div><!--menu--> 
+
+<?php include "left.php" ?>
+
+    <div id="menu-chara">
+        <div id="element">
+            <ul>
+                <p>Element</p>
+                <li><img src="img/char/element/ice.png"></li>
+                <li><img src="img/char/element/fire.png"></li>
+                <li><img src="img/char/element/quantum.png"></li>
+                <li><img src="img/char/element/lightning.png"></li>
+                <li><img src="img/char/element/physical.png"></li>
+                <li><img src="img/char/element/wind.png"></li>
+                <li><img src="img/char/element/imaginary.png"></li>
+            </ul>
+        </div>
+
+        <div id="path">
+            <ul>
+                <p>Path</p>
+                <li><img src="img/char/path/elation.png"></li>
+                <li><img src="img/char/path/hunt.png"></li>
+                <li><img src="img/char/path/remembrance.png"></li>
+                <li><img src="img/char/path/erudition.png"></li>
+                <li><img src="img/char/path/destruction.png"></li>
+                <li><img src="img/char/path/nihility.png"></li>
+                <li><img src="img/char/path/harmony.png"></li>
+                <li><img src="img/char/path/abundance.png"></li>
+                <li><img src="img/char/path/preservation.png"></li>
+            </ul>
+        </div>
+
+        <div id="b">
+            <p>Rarity</p>
+            <a href="sorting/charb4.php"><div id="b4">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+            </div></a>
+
+            <a href="sorting/charb5.php"><div id="b5a">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+            </div></a>
+        </div>
+    </div>
+
+    <div id="characters">
+        <div id="content-char">
+            <ul>
+                <li>
+                    <img id="char-img" src="img/char/path/elation/aventurine-sp.png">
+                    <div id="char-detail">
+                        <p>Aventurine • <br>Waveflair</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/elation.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/remembrance/robin-sp.webp">
+                    <div id="char-detail">
+                        <p>Robin • <br>Summeretto</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/remembrance.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/rin-tohsaka.webp">
+                    <div id="char-detail">
+                        <p>Rin<br>Tohsaka</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/gilgamesh.webp">
+                    <div id="char-detail">
+                        <p>Gilgamesh</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/himeko-sp.webp">
+                    <div id="char-detail">
+                        <p>Himeko<br>Nova</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/mblade.webp">
+                    <div id="char-detail">
+                        <p>Mortenax<br>Blade</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/elation/trailblazer-elation.gif">
+                    <div id="char-detail">
+                        <p>Trailblazer:<br>Elation</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/elation.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/elation/evanescia.webp">
+                    <div id="char-detail">
+                        <p>Evanescia</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/elation.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/elation/sw-999.webp">
+                    <div id="char-detail">
+                        <p>Silver Wolf<br>Lvl. 999</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/elation.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/ashveil.webp">
+                    <div id="char-detail">
+                        <p>Ashveil</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/elation/sparxie.webp">
+                    <div id="char-detail">
+                        <p>Sparxie</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/elation.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/elation/yao-guang.webp">
+                    <div id="char-detail">
+                        <p>Yao<br>Guang</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/elation.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/dahlia.webp">
+                    <div id="char-detail">
+                        <p>The<br>Dahlia</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/remembrance/cyrene.webp">
+                    <div id="char-detail">
+                        <p>Cyrene</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/remembrance.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/preservation/dhpt.webp">
+                    <div id="char-detail">
+                        <p class="dhpt">Dan Heng<br>Permansor Terae</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/preservation.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/remembrance/evernight.webp">
+                    <div id="char-detail">
+                        <p>Evernight</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/remembrance.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/harmony/cerydra.webp">
+                    <div id="char-detail">
+                        <p>Cerydra</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/hysilens.webp">
+                    <div id="char-detail">
+                        <p>Hysilens</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/phainon.webp">
+                    <div id="char-detail">
+                        <p>Phainon</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/archer.webp">
+                    <div id="char-detail">
+                        <p>Archer</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/saber.webp">
+                    <div id="char-detail">
+                        <p>Saber</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/cipher.webp">
+                    <div id="char-detail">
+                        <p>Cipher</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/remembrance/hyacine.webp">
+                    <div id="char-detail">
+                        <p>Hyacine</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/remembrance.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/anaxa.webp">
+                    <div id="char-detail">
+                        <p>Anaxa</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/remembrance/castorice.webp">
+                    <div id="char-detail">
+                        <p>Castorice</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/remembrance.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/mydei.webp">
+                    <div id="char-detail">
+                        <p>Mydei</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/harmony/tribbie.webp">
+                    <div id="char-detail">
+                        <p>Tribbie</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/remembrance/trailblazer-remem.gif">
+                    <div id="char-detail">
+                        <p class="mc-remem">Trailblazer: <br>Remembrance</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/remembrance.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/remembrance/aglaea.webp">
+                    <div id="char-detail">
+                        <p>Aglaea</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/remembrance.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/therta.webp">
+                    <div id="char-detail">
+                        <p>The<br>Herta</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/fugue.webp">
+                    <div id="char-detail">
+                        <p>Fugue</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img-sunday" src="img/char/path/harmony/sunday.webp">
+                    <div id="char-detail">
+                        <p>Sunday</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/rappa.webp">
+                    <div id="char-detail">
+                        <p>Rappa</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/hunt/moze.webp">
+                    <div id="char-detail">
+                        <p>Moze</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/abundance/lingsha.webp">
+                    <div id="char-detail">
+                        <p>Lingsha</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/abundance.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/feixiao.webp">
+                    <div id="char-detail">
+                        <p>Feixiao</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/hunt/march-hunt.webp">
+                    <div id="char-detail">
+                        <p>March 7th: <br>The Hunt</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/jiaoqiu.webp">
+                    <div id="char-detail">
+                        <p>Jiaoqiu</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/yunli.webp">
+                    <div id="char-detail">
+                        <p>Yunli</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/harmony/trailblazer-harmony.gif">
+                    <div id="char-detail">
+                        <p>Trailblazer:<br>Harmony</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/jade.webp">
+                    <div id="char-detail">
+                        <p>Jade</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/firefly.webp">
+                    <div id="char-detail">
+                        <p>Firefly</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/boothil.webp">
+                    <div id="char-detail">
+                        <p>Boothil</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/harmony/robin.webp">
+                    <div id="char-detail">
+                        <p>Robin</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/abundance/gallagher.webp">
+                    <div id="char-detail">
+                        <p>Gallagher</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/preservation/aventurine.webp">
+                    <div id="char-detail">
+                        <p>Aventurine</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/preservation.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/acheron.webp">
+                    <div id="char-detail">
+                        <p>Acheron</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/destruction/misha.webp">
+                    <div id="char-detail">
+                        <p>Misha</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/harmony/sparkle.webp">
+                    <div id="char-detail">
+                        <p>Sparkle</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/black-swan.webp">
+                    <div id="char-detail">
+                        <p>Black<br>Swan</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/destruction/xueyi.webp">
+                    <div id="char-detail">
+                        <p>Xueyi</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/dr-ratio.webp">
+                    <div id="char-detail">
+                        <p>Dr. Ratio</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/harmony/ruanmei.webp">
+                    <div id="char-detail">
+                        <p>Ruan Mei</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/harmony/hanya.webp">
+                    <div id="char-detail">
+                        <p>Hanya</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/argenti.webp">
+                    <div id="char-detail">
+                        <p>Argenti</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/abundance/huohuo.webp">
+                    <div id="char-detail">
+                        <p>Huohuo</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/abundance.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/nihility/guinaifen.webp">
+                    <div id="char-detail">
+                        <p>Guinaifen</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/topaz.webp">
+                    <div id="char-detail">
+                        <p>Topaz & <br>Numby</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/jingliu.webp">
+                    <div id="char-detail">
+                        <p>Jingliu</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/abundance/lynx.webp">
+                    <div id="char-detail">
+                        <p>Lynx</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/abundance.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/danheng-il.webp">
+                    <div id="char-detail">
+                        <p class="dhpt">Dan Heng<br>Imbibitor Lunae</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/preservation/fuxuan.webp">
+                    <div id="char-detail">
+                        <p>Fu Xuan</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/preservation.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/nihility/luka.webp">
+                    <div id="char-detail">
+                        <p>Luka</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/kafka.webp">
+                    <div id="char-detail">
+                        <p>Kafka</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/blade.webp">
+                    <div id="char-detail">
+                        <p>Blade</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img-yukong" src="img/char/path/harmony/yukong.webp">
+                    <div id="char-detail">
+                        <p>Yukong</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img-sunday" src="img/char/path/abundance/luocha.webp">
+                    <div id="char-detail">
+                        <p>Luocha</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/abundance.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/silver-wolf.webp">
+                    <div id="char-detail">
+                        <p>Silver<br>Wolf</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/abundance/bailu.webp">
+                    <div id="char-detail">
+                        <p>Bailu</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/abundance.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/yanqing.webp">
+                    <div id="char-detail">
+                        <p>Yanqing</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/hunt/sushang.webp">
+                    <div id="char-detail">
+                        <p>Sushang</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/jingyuan.webp">
+                    <div id="char-detail">
+                        <p>Jing<br>Yuan</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/harmony/tingyun.webp">
+                    <div id="char-detail">
+                        <p>Tingyun</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/erudition/qingque.webp">
+                    <div id="char-detail">
+                        <p>Qingque</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/preservation/trailblazer-pre.gif">
+                    <div id="char-detail">
+                        <p>Trailblazer: <br>Preservation</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/preservation.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/destruction/hook.webp">
+                    <div id="char-detail">
+                        <p>Hook</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/nihility/sampo.webp">
+                    <div id="char-detail">
+                        <p>Sampo</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/clara.webp">
+                    <div id="char-detail">
+                        <p>Clara</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/nihility/pela.webp">
+                    <div id="char-detail">
+                        <p>Pela</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/abundance/natasha.webp">
+                    <div id="char-detail">
+                        <p>Natasha</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/abundance.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/preservation/gepard.webp">
+                    <div id="char-detail">
+                        <p>Gepard</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/preservation.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/erudition/serval.webp">
+                    <div id="char-detail">
+                        <p>Serval</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/hunt/seele.webp">
+                    <div id="char-detail">
+                        <p>Seele</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/quantum.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/harmony/bronya.webp">
+                    <div id="char-detail">
+                        <p>Bronya</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/erudition/herta.webp">
+                    <div id="char-detail">
+                        <p>Herta</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/harmony/asta.webp">
+                    <div id="char-detail">
+                        <p>Asta</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/harmony.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/destruction/arlan.webp">
+                    <div id="char-detail">
+                        <p>Arlan</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/lightning.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/nihility/welt.webp">
+                    <div id="char-detail">
+                        <p>Welt</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/nihility.png">
+                            <img src="img/char/element/imaginary.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/erudition/himeko.webp">
+                    <div id="char-detail">
+                        <p>Himeko</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/erudition.png">
+                            <img src="img/char/element/fire.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/hunt/danheng.webp">
+                    <div id="char-detail">
+                        <p>Dan Heng</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/hunt.png">
+                            <img src="img/char/element/wind.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-b4-img" src="img/char/path/preservation/march.webp">
+                    <div id="char-detail">
+                        <p>March 7th</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/preservation.png">
+                            <img src="img/char/element/ice.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img id="char-img" src="img/char/path/destruction/trailblazer-dtrc.gif">
+                    <div id="char-detail">
+                        <p>Trailblazer: <br>Destruction</p>
+
+                        <div id="element-char">
+                            <img src="img/char/path/destruction.png">
+                            <img src="img/char/element/physical.png">
+                        </div>
+
+                        <div id="b5">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                            <img src="img/char/bintang-5.png">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<?php include "footer.php" ?>

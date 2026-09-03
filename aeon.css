@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width:1000px;
+    height: auto;;
+    margin:5px auto;
+    color: white;
+    border: 1px solid white;
+    background-image: url(img/aeon/galaxy.jpg);
+    background-size: auto;
+}
+
+#header{
+    width: 100%;
+    height:250px;
+    max-width: auto;
+    background-image: url(img/aeon/Aeons_Simulated_Universe.webp);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    position: relative;
+}
+
+#header:hover {
+    transition: all 0.5s ease;
+    background-size: 120%;
+}
+
+#menu{
+    width:100%;
+    height:auto;
+    background-color: #040b16;
+    position: relative;
+    margin: 0;
+}
+
+#gradasi-header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #040b16);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 80px;
+}
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    padding:8px 0px 16px;
+    position:relative;
+    color: white;
+    border-radius: 30px;
+    text-align: center;;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a span{
+    padding:4px 19px 8px;
+    transition: background-color 0.2s;
+    border-radius: 30px;
+}
+
+#menu ul li a:hover span{
+    background-color: #122139;
+    color: white;
+    border-radius: 10px;
+}
+
+#menu ul li ul{
+    display: none;
+    border-radius: 10px;
+}
+
+#menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 30px;
+    background-color: #040b16;
+}
+
+#menu ul li:hover ul li{
+    margin-top: 0;
+    padding: 0;
+}
+
+#menu ul li:hover li a span{
+    display: block;
+    width: 195px;
+    text-align: left;
+}
+
+#main-content-aeon {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+#header-aeon {
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 80px;
+    text-shadow: 0 15px black;
+}
+
+#aeon {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+#aha {
+    margin-bottom: 50px;
+}
+
+#aha .aha {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 300px;
+}
+
+#aha p {
+    margin-left: 310px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#aha .pp {
+    margin-left: 370px;
+}
+
+#aha #emanator-aha {
+    display: flex;
+    margin-left: 210px;
+    gap: 80px;
+}
+
+#aha #emanator-aha img{
+    width: 200px;
+    height: auto;
+}
+
+#emanator-aha p {
+    margin: 0;
+}
+
+#lan {
+    margin-bottom: 50px;
+}
+
+#lan .lan {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+#lan p {
+    margin-left: 325px;
+    font-size: 40px;
+}
+
+#lan .ppp {
+    margin-left: 370px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#emanator-lan img {
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+}
+
+#nanook {
+    margin-bottom: 550px;
+}
+
+#nanook .nanook {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+#nanook p {
+    margin-left: 240px;
+    font-size: 40px;
+}
+
+#nanook .pppp {
+    margin-left: 370px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#emanator-nanook {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    float: left;
+}
+
+#emanator-nanook p {
+    font-size: 30px;
+    margin: 0;
+}
+
+#emanator-nanook img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+#nous {
+    margin-bottom: 50px;
+}
+
+#nous .nous {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+#nous p {
+    margin-left: 280px;
+    font-size: 40px;
+}
+
+#nous .text-nous {
+    margin-left: 370px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#emanator-nous img {
+    width: 200px;
+    height: auto;
+    margin-left: 340px;
+}
+
+#emanator-nous p {
+    margin-left: 360px;
+}
+
+#ix {
+    margin-bottom: 50px;
+}
+
+#ix .ix {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+#ix p {
+    margin-left: 320px;
+    font-size: 40px;
+}
+
+#ix .text-ix {
+    margin-left: 370px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#emanator-ix img {
+    width: 200px;
+    height: auto;
+    margin-left: 340px;
+}
+
+#emanator-ix p {
+    margin-left: 370px;
+}
+
+#xipe {
+    margin-bottom: 50px;
+}
+
+#xipe .xipe {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+#xipe p {
+    margin-left: 290px;
+    font-size: 40px;
+}
+
+#xipe .text-xipe {
+    margin-left: 370px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#emanator-xipe img {
+    width: 450px;
+    height: auto;
+    margin-left: 220px;
+}
+
+#emanator-ix p {
+    margin-left: 370px;
+}
+
+#yaoshi {
+    margin-bottom: 50px;
+}
+
+#yaoshi .yaoshi {
+    width: 350px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+#yaoshi p {
+    margin-left: 270px;
+    font-size: 40px;
+}
+
+#yaoshi .text-yaoshi {
+    margin-left: 370px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#emanator-yaoshi img {
+    width: 450px;
+    height: auto;
+    margin-left: 220px;
+}
+
+#emanator-yaoshi p {
+    margin-left: 390px;
+}

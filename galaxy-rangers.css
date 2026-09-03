@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width:1000px;
+    height: auto;;
+    margin:5px auto;
+    color: white;
+    border: 1px solid white;
+    background-size: auto;
+}
+
+#header{
+    width: 100%;
+    height:250px;
+    max-width: auto;
+    background-image: url(img/galaxy-rangers/galaxy-rangers.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    position: relative;
+}
+
+#header:hover {
+    transition: all 0.5s ease;
+    background-size: 110%;
+}
+
+#menu{
+    width:100%;
+    height:auto;
+    background-color: #040b16;
+    position: relative;
+    margin: 0;
+}
+
+#gradasi-header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #040b16);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 80px;
+}
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    padding:8px 0px 16px;
+    position:relative;
+    color: white;
+    border-radius: 30px;
+    text-align: center;;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a span{
+    padding:4px 19px 8px;
+    transition: background-color 0.2s;
+    border-radius: 30px;
+}
+
+#menu ul li a:hover span{
+    background-color: #122139;
+    color: white;
+    border-radius: 10px;
+}
+
+#menu ul li ul{
+    display: none;
+    border-radius: 10px;
+}
+
+#menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 30px;
+    background-color: #040b16;
+}
+
+#menu ul li:hover ul li{
+    margin-top: 0;
+    padding: 0;
+}
+
+#menu ul li:hover li a span{
+    display: block;
+    width: 195px;
+    text-align: left;
+}

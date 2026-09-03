@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Prastio Romadoni</title>
+   <link rel="stylesheet" href="grand-duke-family.css">
+</head>
+<body>
+ <div id="wrap">
+    <div id="header">
+        <div id="gradasi-header"></div>
+    </div><!--header-->
+
+    <div id="menu"> 
+        <div id="gradasi-menu"></div>
+        <ul>
+            <li style="border-left:1px solid #000"><a href="index.php"><span>Home</span></a></li>
+            <li><a href="profil.php"><span>Profile</span></a></li>
+            <li><a href="#"><span>Items</span></a>
+                <ul>
+                    <li><a href="https://wiki.hoyolab.com/pc/hsr/aggregate/108"><span>Relic Set & Planar Set</span></a></li>
+                    <li><a href="https://www.hoyolab.com/article/17984000?bbs_presentation_style=fullscreen"><span>Stats Information</span></a></li>
+                </ul>
+            </li>
+            <li><a href="char.php"><span>Characters</span></a></li>
+            <li><a href="gallery.php"><span>Gallery</span></a></li>
+        </ul>
+    </div><!--menu-->
+
+    <div id="main-content-gdf">
+        <div id="header-gdf">
+            <h1>ANNIHILATION GANG</h1>
+            <img src="img/grand-duke-family/grand-duke-inferno.png">
+            <h1>Grand Duke Inferno (Ifrit)</h1>
+        </div>
+
+        <div id="middle-gdf">
+            <div id="akash">
+                <img src="img/grand-duke-family/akash.png">
+            </div>
+            <div id="dubra"></div>
+            <div id="caterina"></div>
+            <div id="constance"></div>
+        </div>
+    </div>
+
+</body>
+</html>

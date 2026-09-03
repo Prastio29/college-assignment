@@ -1,0 +1,66 @@
+<?php include "header.php" ?>
+    <div id="banner-logo">
+        <img src="img/hsr-logo.webp">
+        <div id="gradasi-logo"></div>
+    </div>
+<?php include "left.php" ?>
+
+    <div id="right">
+        <div id="gradasi-right"></div>
+        <div id="top-right">
+            <div id="title">
+                <p>HONKAI: STAR RAIL</p>
+            </div>
+            <div id="content-tr">
+                <p>Honkai: Star Rail is a turn-based space fantasy RPG developed and published by HoYoverse for PC, PS5, and iOS/Android platforms. Come aboard with us on the Astral Express, Trailblazers!</p>
+            </div>
+        </div>
+        <div id="banner"> 
+        </div>
+
+        <div id="middle-right">
+            <div id="mr-left">
+                <div id="title">
+                    <p>Phainon banner</p>
+                </div>
+                <div id="content-mr-left">
+                </div>
+            </div>
+
+            <div id="mr-center">
+                <div id="title">
+                    <p>Cyrene banner</p>
+                </div>
+                <div id="content-mr-center">
+                </div>
+            </div>
+
+            <div id="mr-right">
+                <div id="title">
+                    <p style="color: white">Fate banner</p>
+                </div>
+                <div id="content-mr-right">
+                    <img src="img/fate-warp.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div id="bottom-right">
+            <div id="br-left">
+                <div id="title"><p>About Patch 4.3</p></div>
+                <div id="content-br-left">
+                    <img src="img/hsr4.3.jpg">  
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+
+            <div id="br-right">
+                <div id="title"><p>Next banner</p></div>
+                <div id="content-br-right">
+                </div>
+            </div>
+        </div>
+    </div><!--right-->
+</div>
+
+<?php include "footer.php" ?>

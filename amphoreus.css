@@ -1,0 +1,275 @@
+#wrap{
+    width:1000px;
+    height:auto;
+    margin:5px auto;
+    background-color: #1d1453;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    letter-spacing: 2px
+}
+
+#header{
+    width: 100%;
+    height: 300px;
+    max-width: auto;
+    background-image: url(img/amphoreus/chrysos-heir.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 35%;
+    position: relative;
+}
+
+#header:hover {
+    transition: all 0.5s ease;
+    background-size: 110%;
+}
+
+audio {
+    visibility: hidden;
+}
+
+#gradasi {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #1d1453);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#menu{
+    width:100%;
+    height:50px;
+    background-color: #1d1453;
+}
+
+#menu ul{
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    padding:4px 0px 8px;
+    position: relative;
+    color: white;
+    border-radius: 20px;;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a span{
+    padding:4px 19px 8px;
+    transition: background-color 0.2s;
+    border-radius: 20px;
+}
+
+#menu ul li a:hover span{
+    background-color: #6659b2;
+    color: white;
+    border-radius: 20px;
+}
+
+#menu ul li ul{
+    display: none;
+}
+
+#menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 30px;
+    background-color: #121212;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+#menu ul li:hover ul li{
+    margin-top: 0;
+    padding: 0;
+}
+
+#menu ul li:hover li a span{
+    display: block;
+    width: 195px;
+    text-align: left;
+}
+
+/* KONTEN AMPHOREUS */
+
+#video {
+    width: auto;
+    height: 290px;
+    margin-top: 30px;
+    background-color: #1d1453;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+#video #img1 {
+    width: 250px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#video #img2 {
+    width: 250px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px
+}
+
+#video iframe {
+    width: 440px;
+    height: 185px;
+}
+
+#gradasi-video {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #1d1453, #2b221b);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#content-amphoreus {
+    width: 1000px;
+    height: auto;
+    position: relative;
+    color: white;
+}
+
+#gradasi-konten {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, #a4855d, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner-aglaea{
+    width: 100%;
+    height: 420px;
+    max-width: auto;
+    background-image: url(img/amphoreus/banner-aglaea.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 35%;
+    position: relative;
+}
+
+#gradasi-aglaea2{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, #2b221b, transparent); 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#gradasi-aglaea {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom,transparent, #2b221b ); 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#content-aglaea {
+    width: 1000px;
+    height: auto;
+    color: #000;
+    background-color: #E6C57E;
+    display: flex;
+    position: relative;
+}
+
+#content-aglaea img{
+    width: 300px;
+    height: auto;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    border-bottom-right-radius: 120px;
+}
+
+#content-aglaea h1{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#gradasi-konten-aglaea2 {
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom,transparent, #fbb669 ); 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#gradasi-konten-aglaea {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #2b221b, #E6C57E ); 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner-tribbie{
+    width: 100%;
+    height: 420px;
+    max-width: auto;
+    background-image: url(img/amphoreus/banner-tribbie.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 35%;
+    position: relative;
+}
+
+#gradasi-tribbie2{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, #fbb669, transparent); 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#gradasi-tribbie {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom,transparent, #cf4924 ); 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#content-tribbie {
+    width: 100%;
+    height: auto;
+    background-color: #cf4924;
+    display: flex;
+} 
+
+#content-tribbie img {
+    width: 300px;
+    height: auto;
+    padding-top: 70px;
+    padding-left: 30px;
+    border-bottom-right-radius: 90px;
+}
+
+#content-tribbie h1 {
+    margin-top: 80px;
+    margin-left: 20px;
+}
