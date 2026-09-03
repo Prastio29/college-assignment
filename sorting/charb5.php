@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Prastio Romadoni</title>
+   <link rel="stylesheet" href="../style.css">
+   <link rel="stylesheet" href="../char.css">
+</head>
+<body>
+ <div id="wrap">
+    <div id="header">
+    </div><!--header-->
+
+    <div id="menu">
+        <ul>
+            <li style="border-left:1px solid #000"><a href="../index.php"><span>Home</span></a></li>
+            <li><a href="../profil.php"><span>Profile</span></a></li>
+            <li><a href="#"><span>Items</span></a>
+                <ul>
+                    <li><a href=""><span>Relic Set</span></a></li>
+                    <li><a href=""><span>Planar Set</span></a></li>
+                    <li><a href=""><span>Stats Information</span></a></li>
+                </ul>
+            </li>
+            <li><a href="../char.php"><span>Characters</span></a></li>
+            <li><a href="../gallery.php"><span>Gallery</span></a></li>
+        </ul>
+    </div><!--menu--> 
+
+<?php include "../left.php" ?>
+
+    <div id="menu-chara">
+        <div id="element">
+            <ul>
+                <p>Element</p>
+                <li><img src="../img/char/element/ice.png"></li>
+                <li><img src="img/char/element/fire.png"></li>
+                <li><img src="img/char/element/quantum.png"></li>
+                <li><img src="img/char/element/lightning.png"></li>
+                <li><img src="img/char/element/physical.png"></li>
+                <li><img src="img/char/element/wind.png"></li>
+                <li><img src="img/char/element/imaginary.png"></li>
+            </ul>
+        </div>
+
+        <div id="path">
+            <ul>
+                <p>Path</p>
+                <li><img src="img/char/path/elation.png"></li>
+                <li><img src="img/char/path/hunt.png"></li>
+                <li><img src="img/char/path/remembrance.png"></li>
+                <li><img src="img/char/path/erudition.png"></li>
+                <li><img src="img/char/path/destruction.png"></li>
+                <li><img src="img/char/path/nihility.png"></li>
+                <li><img src="img/char/path/harmony.png"></li>
+                <li><img src="img/char/path/abundance.png"></li>
+                <li><img src="img/char/path/preservation.png"></li>
+            </ul>
+        </div>
+
+        <div id="b">
+            <p>Rarity</p>
+            <a href="charb4.php"><div id="b4">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+            </div></a>
+
+            <a href="charb5.php"><div id="b5a">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+                <img src="img/char/bintang-5.png">
+            </div></a>
+        </div>
+    </div>
+
+    <div id="characters">
+            <div id="content-char">
+                <ul>
+                </ul>
+            </div>
+    </div>
+
+<?php include "../footer.php" ?>
